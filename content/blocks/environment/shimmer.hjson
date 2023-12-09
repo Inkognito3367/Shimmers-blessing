@@ -1,10 +1,8 @@
 sprite: shimmerliquid
 speedMultiplier: 0.5
-variants: 0
-statusDuration: 60
+variants: 1
 isLiquid: true
-albedo: 0.5
-status: corroded
+albedo: 0
 emitLight: true
 lightRadius: 32
 lightColor: 9b6eea
