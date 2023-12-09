@@ -1,0 +1,9 @@
+type: Floor
+isLiquid: true
+liquidDrop: shimmer
+cacheLayer: water
+variants: 0
+speedMultiplier: 0.5
+emitLight: true
+lightRadius: 40
+lightColor: 9b6eea
