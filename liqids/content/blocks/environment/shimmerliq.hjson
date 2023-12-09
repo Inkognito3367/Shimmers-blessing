@@ -1,6 +1,0 @@
-type: Floor
-isLiquid: true
-emitLight: true
-name: shimmerliq
-lightRadius: 32
-lightColor: 9b6eea
