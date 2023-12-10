@@ -1,0 +1,34 @@
+type: multicraft.MultiCrafter
+size : 3
+category: crafting
+liquidCapacity: 60
+itemCapacity: 10
+requirements: [
+  graphite/100
+]
+menu: Detailed
+recipes : [
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/0.34
+  ]
+  items: [
+  lead/1
+  ]
+}
+  output: {
+      items: [
+        copper/3
+      ]
+  }
+  craftTime : 100.0,
+}
+{
+  input: {
+      items: lead/1
+  }
+  output: ozone/1.5
+  craftTime : 210.0
+}
+]
