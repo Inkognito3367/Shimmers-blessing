@@ -1,6 +1,6 @@
 name: Shimmered
 disarm: true
-dragMultiplier: -1
-speedMultiplier: 0
+dragMultiplier: 0
+speedMultiplier: -1
 healthMultiplier: 1000000000
 damage: -1000000000
