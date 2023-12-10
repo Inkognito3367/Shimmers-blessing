@@ -59,11 +59,12 @@ ammoTypes: {
   shimmer: {
     type: LiquidBulletType
     liquid: shimmer
-    knockback: 1
+    knockback: 2.5
+		speed: 4.5
     damage: 0
-    drag: 0.001
+    drag: 0
     lifetime: 49
     status: shimmer-shimmered
-    statusDuration: 120
+    statusDuration: 150
   }
 }
