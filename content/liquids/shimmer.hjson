@@ -3,3 +3,5 @@ name: Shimmer
 emitLight: true
 lightRadius: 40
 lightColor: 9b6eea
+coolant: false
+effect: shimmer-shimmered
