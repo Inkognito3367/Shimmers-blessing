@@ -1,0 +1,6 @@
+name: Shimmered
+disarm: true
+dragMultiplier: 0
+speedMultiplier: 0
+healthMultiplier: 1000000000
+damage: -1000000000
