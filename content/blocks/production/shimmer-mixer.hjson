@@ -8,7 +8,7 @@ craftTime: 1
 consumes: {
 power: 3.0
 liquids: [
-liquids: {
+liquid: {
 slag/0.25
 cryofluid/0.25
 }
