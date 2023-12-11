@@ -4,15 +4,19 @@ size: 2
 hasLiquids: true
 hasItems: false
 liquidCapacity: 120
-craftTime: 1
+craftTime: 20
 consumes: {
 power: 3.0
-liquids: {
 liquids: [
-slag/0.25
-cryofluid/0.25
-]
-}
+        {
+liquid: cryofluid
+amount: 0.25
+        }
+        {
+liquid: slag
+amount: 0.25
+        }
+         ]
        }
 outputLiquid: shimmer-shimmer/1.5
 category: crafting

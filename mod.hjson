@@ -4,3 +4,4 @@ author: Inkis
 description: "WIP"
 version: 1.0
 minGameVersion: 145.1
+dependencies: ["multi-crafter"]

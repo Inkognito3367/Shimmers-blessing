@@ -1,4 +1,4 @@
-type: MultiCrafter
+type: multicraft.MultiCrafter
 size : 3
 category: crafting
 liquidCapacity: 60
