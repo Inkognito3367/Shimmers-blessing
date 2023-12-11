@@ -4,21 +4,21 @@ size: 2
 hasLiquids: true
 hasItems: false
 liquidCapacity: 120
-craftTime: 20
+craftTime: 1
 consumes: {
 power: 3.0
 liquids: [
         {
 liquid: cryofluid
-amount: 0.25
+amount: 0.0125
         }
         {
 liquid: slag
-amount: 0.25
+amount: 0.0125
         }
          ]
        }
-outputLiquid: shimmer-shimmer/1.5
+outputLiquid: shimmer-shimmer/0.075
 category: crafting
 requirements: [
   metaglass/50
