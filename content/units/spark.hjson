@@ -7,7 +7,6 @@ accel: 0.08
 drag: 0.04
 hitSize: 9
 drawCell: false
-outlines: false
 engineSize: 3
 engineOffset: 5.75
 itemCapacity: 10
@@ -23,12 +22,18 @@ weapons: [
     x: 3.5
     y: 0
     shootSound: shootSnap
-    reload: 20
+    reload: 25
+    shoot: {
+      shots: 3
+      shotDelay: 4
+    }
     bullet: {
       type: BasicBulletType
-      damage: 9
+      damage: 6
+      speed: 2.5
       width: 7
       height: 9
+      lifetime: 60
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       ammoMultiplier: 2

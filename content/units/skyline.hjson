@@ -1,0 +1,49 @@
+name: Skyline
+type: flying
+flying: true
+health: 340
+speed: 2.1
+accel: 0.08
+drag: 0.016
+targetAir: false
+hitSize: 10
+drawCell: false
+armor: 3
+engineSize: 3
+engineOffset: 7.8
+itemCapacity: 0
+circleTarget: true
+parts: [
+  {
+    type: RegionPart
+    layer: 115.04
+    outline: false
+  }
+]
+weapons: [
+  {
+    x: 3.5
+    y: 0
+    shootSound: none
+    shootCone: 180
+    inaccuracy: 20
+    ignoreRotation: true
+    reload: 12
+    shoot: {
+      shots: 2
+      shotDelay: 5
+    }
+    bullet: {
+      type: BombBulletType
+      splashDamage: 30
+      splashDamageRadius: 30
+      width: 10
+      height: 14
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      status: blasted
+      statusDuration: 60
+    }
+  }
+]
