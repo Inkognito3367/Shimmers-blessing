@@ -5,6 +5,13 @@ consumes: {
 }
 plans: [
   {
+    unit: shimmer-apex
+    time: 100
+    requirements: [
+      silicon/15
+    ]
+  }
+  {
     unit: flare
     time: 900
     requirements: [

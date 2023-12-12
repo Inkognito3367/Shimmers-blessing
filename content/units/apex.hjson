@@ -1,0 +1,50 @@
+name: Apex
+type: flying
+flying: true
+health: 700
+speed: 1.7
+accel: 0.04
+range: 140
+drag: 0.016
+hitSize: 20
+drawCell: false
+armor: 5
+engineSize: 3
+engineOffset: 12
+lowAltitude: true
+forceMultiTarget: true
+itemCapacity: 0
+weapons: [
+  {
+    name: apex-launcher
+    reload: 65
+    x: 8
+    y: 2
+    rotate: true
+    shake: 1
+    shootSound: missile
+    inaccuracy: 2
+    velocityRnd: 0.2
+    shoot: {
+    shots: 3
+    shotDelay: 6
+    }
+    bullet: {
+    type: MissileBulletType
+    width: 8
+    height: 8
+    speed: 3
+    accel: 0.1
+    drag: -0.003
+    homingRange: 60
+    keepVelocity: false
+    splashDamageRadius: 15
+    splashDamage: 25
+    lifetime: 65
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    weaveScale: 6
+    weaveMag: 1
+    }
+  }
+]
