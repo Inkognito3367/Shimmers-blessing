@@ -1,7 +1,7 @@
 name: Spark
 type: flying
 flying: true
-health: 70
+health: 200
 speed: 2.7
 accel: 0.08
 drag: 0.04
@@ -29,14 +29,22 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 6
+      damage: 12
       speed: 2.5
       width: 7
       height: 9
-      lifetime: 60
+      lifetime: 40
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
-      ammoMultiplier: 2
+      fragBullets: 3
+      fragRandomSpread: 5
+      fragSpread: 340
+    fragBullet: {
+      height: 5
+      width: 8
+      speed: 4
+      lifetime: 20
+     }
     }
   }
 ]

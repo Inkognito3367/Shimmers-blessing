@@ -14,6 +14,20 @@ engineOffset: 12
 lowAltitude: true
 forceMultiTarget: true
 itemCapacity: 0
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 500
+    regen: 0.05
+    angle: 90
+    cooldown: 300
+    whenShooting: false
+    width: 6
+    x: 0
+    y: -2
+    radius: 20
+  }
+]
 weapons: [
   {
     name: apex-launcher
@@ -26,25 +40,25 @@ weapons: [
     inaccuracy: 2
     velocityRnd: 0.2
     shoot: {
-    shots: 3
+    shots: 5
     shotDelay: 6
     }
     bullet: {
     type: MissileBulletType
     width: 8
     height: 8
-    speed: 3
-    accel: 0.1
-    drag: -0.003
-    homingRange: 60
+    speed: 2
+    drag: -0.01
+    homingRange: 100
     keepVelocity: false
+    damage: 30
     splashDamageRadius: 15
     splashDamage: 25
-    lifetime: 65
+    lifetime: 75
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
-    weaveScale: 6
-    weaveMag: 1
+    weaveScale: 3
+    weaveMag: 3
     }
   }
 ]
