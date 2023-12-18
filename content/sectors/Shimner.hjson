@@ -1,0 +1,7 @@
+localizedName: Shimner
+description: You land on Asthosus and find yourself in a small ravine devoid of life and resources. Can you really conquer this planet?
+captureWave: 10
+planet: prismara
+sector: 0
+difficulty: 1
+alwaysUnlocked: true
