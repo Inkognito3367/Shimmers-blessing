@@ -10,6 +10,13 @@ plans: [
     requirements: [
       silicon/15
     ]
+  } 
+  {
+    unit: shimmer-obscura
+    time: 100
+    requirements: [
+      silicon/15
+    ]
   }
   {
     unit: flare

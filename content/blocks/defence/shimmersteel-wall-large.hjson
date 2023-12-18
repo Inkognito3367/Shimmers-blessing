@@ -1,0 +1,9 @@
+type: Wall
+health: 1960
+size: 2
+flashHit: true
+category: defense
+research: anden-wall
+requirements: [
+  shimmersteel/48
+]

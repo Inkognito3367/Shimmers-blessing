@@ -17,14 +17,14 @@ itemCapacity: 0
 abilities: [
   {
     type: ShieldArcAbility
-    max: 500
-    regen: 0.05
+    max: 200
+    regen: 0
     angle: 90
     cooldown: 300
-    whenShooting: false
+    whenShooting: true
     width: 6
     x: 0
-    y: -2
+    y: -5
     radius: 20
   }
 ]

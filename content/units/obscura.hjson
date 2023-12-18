@@ -1,0 +1,75 @@
+name: Obscura
+type: flying
+flying: true
+lowAltitude: true
+health: 8400
+rotateSpeed: 1.9
+speed: 0.8
+drag: 0.04
+hitSize: 46
+drawCell: false
+armor: 11
+engineSize: 6.3
+engineOffset: 19
+itemCapacity: 0
+weapons: [
+  {
+    name: obscura-weapon1
+    reload: 10
+    x: 17
+    y: 8
+    rotate: true
+    rotateSpeed: 8
+    shootSound: missile
+    shadow: 6
+    bullet: {
+    type: MissileBulletType
+    width: 11
+    height: 17
+    speed: 2.7
+    drag: -0.01
+    homingRange: 70
+    homingPower: 0.7
+    keepVelocity: false
+    splashDamageRadius: 50
+    splashDamage: 55
+    lifetime: 65
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+      }
+     }
+   {
+    name: obscura-weapon2
+    reload: 24
+    x: 11
+    y: -10
+    shootY: 10
+    rotate: true
+    rotateSpeed: 2
+    inaccuracy: 1.5
+    shake: 1
+    shootSound: shootBig
+    shoot:
+    {
+    type: ShootSpread
+    spread: 0.5
+    shots: 8
+    shotDelay: 2
+    }
+    shadow: 8
+    ejectEffect: casing1
+    bullet: {
+    type: BasicBulletType
+    width: 12
+    height: 18
+    speed: 7
+    drag: -0.01
+    Damage: 75
+    lifetime: 30
+    shootEffect: shootBig
+    absorbable: false
+    }
+ }
+]

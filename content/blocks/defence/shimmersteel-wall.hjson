@@ -1,0 +1,8 @@
+type: Wall
+health: 490
+flashHit: true
+category: defense
+research: copper-wall
+requirements: [
+  shimmersteel/12
+]
