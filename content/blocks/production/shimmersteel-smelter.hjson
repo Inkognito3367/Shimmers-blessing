@@ -1,0 +1,26 @@
+localizedName: ShimmerSteel Smelter
+type: GenericCrafter
+size: 2
+hasItems: true
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: ff8900
+}
+flameColor: ff8900
+consumes: {
+  items: {
+    items: [
+	  shimmersteel-ore/2
+	]
+  }
+}
+craftTime: 120
+outputItem: shimmersteel/1
+category: crafting
+research: core-shard
+requirements: [
+  copper/10
+  lead/2
+]

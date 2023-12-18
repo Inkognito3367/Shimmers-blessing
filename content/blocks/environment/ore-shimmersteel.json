@@ -1,0 +1,8 @@
+ {
+  "type": "OreBlock",
+  "localizedName": "ShimmerSteel Ore",
+  "itemDrop": "shimmersteel-ore",
+  "hasColor": true,
+  "mapColor": "7a89bc",
+  "variants": 3
+}
