@@ -1,0 +1,17 @@
+{
+  "name": "Shimmer Steel Drill",
+  "description": "A normal Starter drill.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 5,
+  "drillTime": 650,
+  "alwaysUnlocked": true
+  "requirements": [
+    {
+      "item": "shimmersteel",
+      "amount": 12
+    }
+  ],
+  "category": "production",
+  "research": "mini-shimmersteel-drill"
+}

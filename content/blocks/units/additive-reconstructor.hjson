@@ -1,0 +1,9 @@
+upgrades: [
+  [shimmer-spark, shimmer-skyline]
+  [nova, pulsar]
+  [dagger, mace]
+  [crawler, atrax]
+  [mono, poly]
+  [risso, minke]
+  [retusa, oxynoe]
+]

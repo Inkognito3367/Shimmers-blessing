@@ -1,0 +1,42 @@
+ammoTypes: {
+  water: {
+    type: liquidBulletType
+    liquid: water
+    knockback: 0.7
+    drag: 0.01
+    status: wet
+    statusDuration: 120
+  }
+  slag: {
+    type: liquidBulletType
+    liquid: slag
+    statusDuration: 120
+    damage: 4
+    drag: 0.01
+    status: melting
+  }
+  oil: {
+    type: liquidBulletType
+    liquid: oil
+    drag: 0.01
+    statusDuration: 120
+    status: tarred
+  }
+  cryofluid: {
+    type: liquidBulletType
+    liquid: cryofluid
+    drag: 0.01
+    statusDuration: 120
+    status: freezing
+  }
+  shimmer: {
+    type: LiquidBulletType
+    liquid: shimmer
+    knockback: 1
+    damage: 0
+    drag: 0.005
+    lifetime: 100
+    status: shimmer-shimmered
+    statusDuration: 120
+  }
+}

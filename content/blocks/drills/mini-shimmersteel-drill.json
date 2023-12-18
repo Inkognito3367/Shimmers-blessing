@@ -1,0 +1,17 @@
+{
+  "name": "Mini Shimmer Steel Drill",
+  "description": "A small Starter drill.",
+  "type": "Drill",
+  "size": 1,
+  "tier": 5,
+  "drillTime": 1200,
+  "alwaysUnlocked": true
+  "requirements": [
+    {
+      "item": "shimmersteel",
+      "amount": 2
+    }
+  ],
+  "category": "production",
+  "research": "core-shard"
+}
