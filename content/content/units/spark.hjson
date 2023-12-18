@@ -1,0 +1,50 @@
+name: Spark
+type: flying
+flying: true
+health: 200
+speed: 2.7
+accel: 0.08
+drag: 0.04
+hitSize: 9
+drawCell: false
+engineSize: 3
+engineOffset: 5.75
+itemCapacity: 10
+parts: [
+  {
+    type: RegionPart
+    layer: 115.04
+    outline: false
+  }
+]
+weapons: [
+  {
+    x: 3.5
+    y: 0
+    shootSound: shootSnap
+    reload: 25
+    shoot: {
+      shots: 3
+      shotDelay: 4
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 12
+      speed: 2.5
+      width: 7
+      height: 9
+      lifetime: 40
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      fragBullets: 3
+      fragRandomSpread: 5
+      fragSpread: 340
+    fragBullet: {
+      height: 5
+      width: 8
+      speed: 4
+      lifetime: 20
+     }
+    }
+  }
+]

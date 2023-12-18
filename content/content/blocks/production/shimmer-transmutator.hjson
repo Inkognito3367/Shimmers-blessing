@@ -1,0 +1,104 @@
+type: multicraft.MultiCrafter
+size : 3
+category: crafting
+liquidCapacity: 60
+itemCapacity: 10
+name: Shimmer transmutator
+requirements: [
+  graphite/100
+]
+menu: Detailed
+recipes : [
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/0.2
+  water/0.2
+  ]
+}
+  output: {
+      items: [
+        shimmer-shimmersteel/1
+      ]
+  }
+  craftTime : 20.0,
+}
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/0.34
+  ]
+  items: [
+  lead/1
+  ]
+}
+  output: {
+      items: [
+        copper/3
+      ]
+  }
+  craftTime : 100.0,
+}
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/0.34
+  ]
+  items: [
+  thorium/1
+  ]
+}
+  output: {
+      items: [
+        titanium/3
+      ]
+  }
+  craftTime : 120.0,
+}
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/1
+  ]
+  items: [
+  phase-fabric/1
+  ]
+}
+  output: {
+      items: [
+        plastanium/2
+      ]
+  }
+  craftTime : 150.0,
+}
+{
+  input: {
+  fluids: [
+  shimmer-shimmer/1
+  ]
+  items: [
+  plastanium/3
+  ]
+}
+  output: {
+      items: [
+        surge-alloy/1
+      ]
+  }
+  craftTime : 170.0,
+}
+]
+drawer: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+    {
+      type: DrawLiquidTile
+      drawLiquid: shimmer-shimmer
+      padding: 1
+    }
+{
+
+}
+        ]

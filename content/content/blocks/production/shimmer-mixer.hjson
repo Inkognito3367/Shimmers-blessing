@@ -1,0 +1,55 @@
+name: Shimmer mixer
+type: GenericCrafter
+size: 2
+hasLiquids: true
+hasItems: false
+liquidCapacity: 120
+craftTime: 20
+consumes: {
+power: 3.0
+liquids: [
+        {
+liquid: cryofluid
+amount: 0.25
+        }
+        {
+liquid: slag
+amount: 0.25
+        }
+         ]
+       }
+outputLiquid: shimmer-shimmer/1.5
+category: crafting
+requirements: [
+  metaglass/50
+  titanium/150
+  silicon/150
+  thorium/200
+]
+drawer: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      padLeft: 12
+      padRight: 1
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: shimmer-shimmer
+      padLeft: 5.0
+      padRight: 5.0
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padLeft: 1
+      padRight: 12
+    }
+{
+
+}
+        ]
