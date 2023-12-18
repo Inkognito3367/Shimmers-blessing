@@ -1,17 +1,18 @@
 type: ItemTurret
 name: Chalybe
-description: Fires concentrated bursts of Shimmersteel at enemies. 
+description: Fires concentrated bursts of Aetherium at enemies. 
 size: 3
-reload: 189
+reload: 112
 shootCone: 20
 shoot: {
-  shots: 7
-  shotDelay: 10
+  shots: 4
+  shotDelay: 6
 }
+targetAir: true
 range: 160
 shootSound: bang
 inaccuracy: 3
-targetAir: false
+targetAir: true
 velocityRnd: 0.12
 category: turret
 research: duo
@@ -19,27 +20,25 @@ requirements: [
   copper/320
   lead/360
   graphite/125
-  shimmersteel/75
+  aetherium/75
 ]
 ammoTypes: {
-  shimmersteel: {
+  aetherium: {
     type: BasicBulletType
     width: 12
     height: 18
-    damage: 40
-    pierce: true
-    pierceBuilding: true
-    pierceCap: 5
+    damage: 20
     trailLength: 22
-    trailWidth: 4
+    trailWidth: 3.2
     speed: 3
     lifetime: 53
-    fragRandomSpread: 0
-    fragSpread: 90
+    fragRandomSpread: 30
+    fragSpread: 120
     fragVelocityMin: 1
     fragVelocityMay: 1
     fragLifeMin: 1
     fragLifeMax: 1
+    fragBullets: 3
     fragBullet: {
       type: MissileBulletType
       speed: 2
@@ -47,8 +46,10 @@ ammoTypes: {
       damage: 0
       pierce: true
       pierceBuilding: true
-      width: 8
-      height: 16
+      width: 12
+      height: 18
+      weaveMag: 1
+      weaveScale: 1.3
       fragRandomSpread: 0
       fragLifeMin: 1
       fragVelocityMin: 0
@@ -56,7 +57,7 @@ ammoTypes: {
       fragBullets: 1
       fragBullet: {
         type: ExplosionBulletType
-        splashDamage: 64
+        splashDamage: 19
         splashDamageRadius: 24
         killShooter: false
         collides: true

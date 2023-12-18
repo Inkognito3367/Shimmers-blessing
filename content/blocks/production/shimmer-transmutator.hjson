@@ -18,7 +18,7 @@ recipes : [
 }
   output: {
       items: [
-        shimmer-shimmersteel/1
+        shimmer-aetherium/1
       ]
   }
   craftTime : 20.0,

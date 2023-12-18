@@ -1,0 +1,17 @@
+{
+  "name": "Aetherium Drill",
+  "description": "A normal Starter drill.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 5,
+  "drillTime": 650,
+  "alwaysUnlocked": true
+  "requirements": [
+    {
+      "item": "aetherium",
+      "amount": 12
+    }
+  ],
+  "category": "production",
+  "research": "mini-aetherium-drill"
+}

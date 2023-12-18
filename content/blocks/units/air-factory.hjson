@@ -31,7 +31,7 @@ plans: [
     time: 1200
     requirements: [
       silicon/25
-      shimmer-shimmersteel/10
+      shimmer-aetherium/10
     ]
   }
 ]
